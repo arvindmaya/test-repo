@@ -28,7 +28,7 @@ sleep(3)
 password = driver.find_element(By.XPATH,"//input[@name='password']")
 
 
-password.send_keys('Mca@102006')
+password.send_keys('xxxx')
 log_in = driver.find_element(By.XPATH,"//span[contains(text(),'Log in')]")
 log_in.click()
 
